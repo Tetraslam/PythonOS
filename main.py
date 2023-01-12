@@ -2,7 +2,7 @@ import os
 import shutil
 
 def cd(args):
-    # Change the current working directory
+    # Change the current working directory to a specified alternative
     if len(args) != 1:
         print("Usage: cd directory")
         return
